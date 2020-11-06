@@ -26,24 +26,24 @@ For instance; "iso_url": "http://mirror.ucu.ac.ug/centos/7.8.2003/isos/x86_64/Ce
 
 ### Build and Run 
 
-Clone this repository: 
+1. Clone this repository: 
 ```
 $ git clone https://github.com/miirochristopher/packer-centos.git 
 ```
 
-Go to the root directory. 
+2. Go to the root directory. 
 ```
 $ cd packer-centos/
 ```
-To build the `x86_64` box, run:
+3. To build the `x86_64` box, run:
 ```
 $ PACKER_LOG=1 PACKER_LOG_PATH=packer.log packer build CentOS-7-x64.json
 ```
-To run the box, run: 
+4. To run the box, run: 
 ```
 $ vagrant up 
 ```
-To ssh into the box, run: 
+5. To ssh into the box, run: 
 ```
 $ vagrant ssh
 ```
